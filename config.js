@@ -53,39 +53,39 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'Github',
-			icon: 'github',
-			link: 'https://github.com/ApplBoy',
+			name: 'G Drive',
+			icon: 'hard-drive',
+			link: 'https://drive.google.com/',
 		},
 		{
 			id: '2',
-			name: 'GMail',
+			name: 'G Mail',
 			icon: 'mail',
 			link: 'https://mail.google.com/',
 		},
 		{
 			id: '3',
-			name: 'PMail',
+			name: 'LinkedIn',
+			icon: 'linkedin',
+			link: 'https://www.linkedin.com',
+		},
+		{
+			id: '4',
+			name: 'WhtsApp',
+			icon: 'phone',
+			link: 'https://web.whatsapp.com',
+		},
+		{
+			id: '5',
+			name: 'P Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com',
 		},
 		{
-			id: '4',
-			name: 'Calendar',
-			icon: 'calendar',
-			link: 'https://calendar.google.com/calendar/r',
-		},
-		{
-			id: '5',
-			name: 'Reddit',
-			icon: 'glasses',
-			link: 'https://reddit.com',
-		},
-		{
 			id: '6',
-			name: 'Odysee',
+			name: 'YouTube',
 			icon: 'youtube',
-			link: 'https://odysee.com/',
+			link: 'https://youtube.com/',
 		},
 	],
 
@@ -135,46 +135,46 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'music',
+			icon: 'code',
 			id: '1',
 			links: [
 				{
-					name: 'Inspirational',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Github',
+					link: 'https://github.com/ApplBoy',
 				},
 				{
-					name: 'Classic',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'Replit',
+					link: 'https://replit.com/~',
 				},
 				{
-					name: 'Oldies',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'GDB',
+					link: 'https://www.onlinegdb.com/',
 				},
 				{
-					name: 'Rock',
-					link: 'https://www.youtube.com/watch?v=dQw4w9WgXcQ',
+					name: 'SIGAA',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
 				},
 			],
 		},
 		{
-			icon: 'coffee',
+			icon: 'gamepad',
 			id: '2',
 			links: [
 				{
-					name: 'Linkedin',
-					link: 'https://www.linkedin.com',
+					name: 'MobyGames',
+					link: 'https://www.mobygames.com/',
 				},
 				{
-					name: 'Dribbble',
-					link: 'https://www.dribbble.com',
+					name: 'TTop Audio',
+					link: 'https://tabletopaudio.com/',
 				},
 				{
-					name: 'Trello',
-					link: 'https://www.trello.com',
+					name: '4chan',
+					link: 'https://www.4chan.org',
 				},
 				{
-					name: 'Slack',
-					link: 'https://www.slack.com',
+					name: 'Cheat.sh',
+					link: 'https://cheat.sh/',
 				},
 			],
 		},
