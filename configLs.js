@@ -16,24 +16,8 @@ const CONFIG = {
 	openInNewTab: true,
 	twelveHourFormat: false,
 
-	/*// Greetings
-	greetingMorning: 'おはようございます！!',
-	greetingAfternoon: 'こんにちは,',
-	greetingEvening: 'こんばんは,',
-	greetingNight: '寝ろ!',*/
-
 	// Layout
 	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
-
-	/*// Weather
-	weatherKey: '2956d6845d0ee105e784b6001f68c344', // Write here your API Key
-	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
-	weatherUnit: 'C', // 'F', 'C'
-	language: 'pt_br', // More languages in https://openweathermap.org/current#multi
-
-	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
-	defaultLatitude: '-17.887520',
-	defaultLongitude: '-51.726028',*/
 
 	// Autochange
 	autoChangeTheme: true,
@@ -135,36 +119,36 @@ const CONFIG = {
 	// First Links Container
 	firstlistsContainer: [
 		{
-			icon: 'code',
+			icon: 'hard-drive',
 			id: '1',
 			links: [
 				{
-					name: 'Github',
-					link: 'https://github.com/ApplBoy',
+					name: 'G Drive',
+					link: 'https://drive.google.com/',
 				},
 				{
-					name: 'Replit',
-					link: 'https://replit.com/~',
+					name: 'Disk',
+					link: 'https://disk.yandex.com/',
 				},
 				{
-					name: 'GDB',
-					link: 'https://www.onlinegdb.com/',
+					name: 'Intrnxt',
+					link: 'https://drive.internxt.com/app',
 				},
 				{
-					name: 'SIGAA',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'One Drv',
+					link: 'https://onedrive.live.com/',
 				},
 				{
-					name: 'F',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'P Drive',
+					link: 'https://drive.proton.me/',
 				},
 				{
-					name: 'A',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'Media Fr',
+					link: 'https://app.mediafire.com/',
 				},
 				{
-					name: 'C',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'D Drive',
+					link: 'https://doodrive.com/dashboard',
 				},
 			],
 		},
