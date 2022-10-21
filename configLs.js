@@ -16,16 +16,16 @@ const CONFIG = {
 	openInNewTab: true,
 	twelveHourFormat: false,
 
-	// Greetings
+	/*// Greetings
 	greetingMorning: 'おはようございます！!',
 	greetingAfternoon: 'こんにちは,',
 	greetingEvening: 'こんばんは,',
-	greetingNight: '寝ろ!',
+	greetingNight: '寝ろ!',*/
 
 	// Layout
-	bentoLayout: 'bento', // 'bento', 'lists', 'buttons'
+	bentoLayout: 'lists', // 'bento', 'lists', 'buttons'
 
-	// Weather
+	/*// Weather
 	weatherKey: '2956d6845d0ee105e784b6001f68c344', // Write here your API Key
 	weatherIcons: 'OneDark', // 'Onedark', 'Nord', 'Dark', 'White'
 	weatherUnit: 'C', // 'F', 'C'
@@ -33,7 +33,7 @@ const CONFIG = {
 
 	trackLocation: true, // If false or an error occurs, the app will use the lat/lon below
 	defaultLatitude: '-17.887520',
-	defaultLongitude: '-51.726028',
+	defaultLongitude: '-51.726028',*/
 
 	// Autochange
 	autoChangeTheme: true,
@@ -53,42 +53,40 @@ const CONFIG = {
 	firstButtonsContainer: [
 		{
 			id: '1',
-			name: 'G Mail',
+			name: 'G Drive',
+			icon: 'hard-drive',
+			link: 'https://drive.google.com/',
+		},
+		{
+			id: '2',
 			name: 'G Mail',
 			icon: 'mail',
 			link: 'https://mail.google.com/',
 		},
 		{
-			id: '2',
+			id: '3',
 			name: 'LinkedIn',
 			icon: 'linkedin',
 			link: 'https://www.linkedin.com',
 		},
 		{
-			id: '3',
+			id: '4',
 			name: 'WhtsApp',
 			icon: 'phone',
 			link: 'https://web.whatsapp.com',
 		},
 		{
-			id: '4',
+			id: '5',
 			name: 'P Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com',
 		},
 		{
-			id: '5',
+			id: '6',
 			name: 'YouTube',
 			icon: 'youtube',
 			link: 'https://youtube.com/',
 		},
-		{
-			id: '6',
-			name: 'More Links',
-			icon: 'plus',
-			link: './lists.html',
-		},
-
 	],
 
 	secondButtonsContainer: [
@@ -156,6 +154,18 @@ const CONFIG = {
 					name: 'SIGAA',
 					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
 				},
+				{
+					name: 'F',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'A',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'C',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
 			],
 		},
 		{
@@ -177,6 +187,18 @@ const CONFIG = {
 				{
 					name: 'Cheat.sh',
 					link: 'https://cheat.sh/',
+				},
+				{
+					name: 'F',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'A',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'C',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
 				},
 			],
 		},
@@ -204,6 +226,18 @@ const CONFIG = {
 					name: 'Pocket',
 					link: 'https://www.pocket.com',
 				},
+				{
+					name: 'F',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'A',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'C',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
 			],
 		},
 		{
@@ -225,6 +259,18 @@ const CONFIG = {
 				{
 					name: 'Repos',
 					link: 'https://github.com/migueravila',
+				},
+				{
+					name: 'F',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'A',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				},
+				{
+					name: 'C',
+					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
 				},
 			],
 		},
