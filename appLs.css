@@ -185,6 +185,7 @@ body {
 
 #greetings {
   font-size: var(--fg-secondary);
+  font-weight: bolder;
   color: var(--fg);
 }
 
