@@ -123,6 +123,10 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
+					name: 'D Drive',
+					link: 'https://doodrive.com/dashboard',
+				},
+				{
 					name: 'G Drive',
 					link: 'https://drive.google.com/',
 				},
@@ -139,50 +143,46 @@ const CONFIG = {
 					link: 'https://onedrive.live.com/',
 				},
 				{
-					name: 'P Drive',
-					link: 'https://drive.proton.me/',
-				},
-				{
 					name: 'Media Fr',
 					link: 'https://app.mediafire.com/',
 				},
 				{
-					name: 'D Drive',
-					link: 'https://doodrive.com/dashboard',
+					name: 'Mega',
+					link: 'https://mega.nz/',
 				},
 			],
 		},
 		{
-			icon: 'gamepad',
+			icon: 'dices',
 			id: '2',
 			links: [
 				{
-					name: 'MobyGames',
-					link: 'https://www.mobygames.com/',
+					name: 'Roll20',
+					link: 'https://www.roll20.net/',
 				},
 				{
 					name: 'TTop Audio',
 					link: 'https://tabletopaudio.com/',
 				},
 				{
-					name: '4chan',
-					link: 'https://www.4chan.org',
+					name: 'Amb Mixer',
+					link: 'https://www.ambient-mixer.com/',
 				},
 				{
-					name: 'Cheat.sh',
-					link: 'https://cheat.sh/',
+					name: 'Dojon',
+					link: 'https://donjon.bin.sh/',
 				},
 				{
-					name: 'F',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'My Noise	',
+					link: 'https://mynoise.net/',
 				},
 				{
-					name: 'A',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'ArtStation',
+					link: 'https://www.artstation.com/',
 				},
 				{
-					name: 'C',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'DevintArt',
+					link: 'https://www.deviantart.com/',
 				},
 			],
 		},
@@ -225,36 +225,36 @@ const CONFIG = {
 			],
 		},
 		{
-			icon: 'github',
+			icon: 'binary',
 			id: '2',
 			links: [
 				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
 					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
+					link: 'https://www.rust-lang.org/learn',
 				},
 				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
+					name: 'PHP',
+					link: 'https://www.php.net/manual/en/',
 				},
 				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Coursera',
+					link: 'https://www.coursera.org',
 				},
 				{
-					name: 'F',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'CodeCamp',
+					link: 'https://www.freecodecamp.org',
 				},
 				{
-					name: 'A',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'Sololearn',
+					link: 'https://www.sololearn.com',
 				},
 				{
-					name: 'C',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'Hashnode',
+					link: 'https://www.hashnode.com',
+				},
+				{
+					name: 'W3 Schools',
+					link: 'https://www.w3schools.com/',
 				},
 			],
 		},

@@ -167,8 +167,8 @@ const CONFIG = {
 					link: 'https://www.mobygames.com/',
 				},
 				{
-					name: 'TTop Audio',
-					link: 'https://tabletopaudio.com/',
+					name: 'Itch.io',
+					link: 'https://itch.io/',
 				},
 				{
 					name: '4chan',
