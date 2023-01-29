@@ -13,7 +13,7 @@ const CONFIG = {
 	// General
 	name: 'Saulo',
 	imageBackground: false,
-	openInNewTab: true,
+	openInNewTab: false,
 	twelveHourFormat: false,
 
 	// Layout
@@ -29,88 +29,6 @@ const CONFIG = {
 	changeThemeByHour: false,
 	hourDarkThemeActive: '18:00',
 	hourDarkThemeInactive: '07:00',
-
-	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-	// ├┴┐│ │ │  │ │ ││││└─┐
-	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
-
-	firstButtonsContainer: [
-		{
-			id: '1',
-			name: 'G Drive',
-			icon: 'hard-drive',
-			link: 'https://drive.google.com/',
-		},
-		{
-			id: '2',
-			name: 'G Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
-		},
-		{
-			id: '3',
-			name: 'LinkedIn',
-			icon: 'linkedin',
-			link: 'https://www.linkedin.com',
-		},
-		{
-			id: '4',
-			name: 'WhtsApp',
-			icon: 'phone',
-			link: 'https://web.whatsapp.com',
-		},
-		{
-			id: '5',
-			name: 'P Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com',
-		},
-		{
-			id: '6',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
-		},
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
@@ -191,41 +109,41 @@ const CONFIG = {
 	// Second Links Container
 	secondListsContainer: [
 		{
-			icon: 'binary',
+			icon: 'terminal',
 			id: '1',
 			links: [
 				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
+					name: 'ChatGPT',
+					link: 'https://chat.openai.com',
 				},
 				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
+					name: 'Dictionary ADS',
+					link: 'https://xlinux.nist.gov/dads/,
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'CSS-Tricks',
+					link: 'https://css-tricks.com/',
 				},
 				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
+					name: 'Tailwind Components',
+					link: 'https://tailwindcomponents.com/',
 				},
 				{
-					name: 'F',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'Bootstrap Docs',
+					link: 'https://getbootstrap.com/docs/',
 				},
 				{
-					name: 'A',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+				i	name: 'Curated Lists',
+					link: 'https://github.com/cuuupid/awesome-lists',
 				},
 				{
-					name: 'C',
-					link: 'https://sigaa.sistemas.ufj.edu.br/sigaa/verTelaLogin.do',
+					name: 'Stack Abuse',
+					link: 'https://stackabuse.com/',
 				},
 			],
 		},
 		{
-			icon: 'binary',
+			icon: 'code-2',
 			id: '2',
 			links: [
 				{
@@ -249,8 +167,8 @@ const CONFIG = {
 					link: 'https://www.sololearn.com',
 				},
 				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
+					name: 'Neetcode',
+					link: 'https://neetcode.io/',
 				},
 				{
 					name: 'W3 Schools',
