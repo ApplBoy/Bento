@@ -30,90 +30,6 @@ const CONFIG = {
 	hourDarkThemeActive: '18:00',
 	hourDarkThemeInactive: '07:00',
  
-	// ┌┐ ┬ ┬┌┬┐┌┬┐┌─┐┌┐┌┌─┐
-	// ├┴┐│ │ │  │ │ ││││└─┐
-	// └─┘└─┘ ┴  ┴ └─┘┘└┘└─┘
-
-	firstButtonsContainer: [
-		{
-			id: '1',
-			name: 'G Mail',
-			name: 'G Mail',
-			icon: 'mail',
-			link: 'https://mail.google.com/',
-		},
-		{
-			id: '2',
-			name: 'LinkedIn',
-			icon: 'linkedin',
-			link: 'https://www.linkedin.com',
-		},
-		{
-			id: '3',
-			name: 'WhtsApp',
-			icon: 'phone',
-			link: 'https://web.whatsapp.com',
-		},
-		{
-			id: '4',
-			name: 'P Mail',
-			icon: 'mail',
-			link: 'https://mail.protonmail.com',
-		},
-		{
-			id: '5',
-			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
-		},
-		{
-			id: '6',
-			name: 'More Links',
-			icon: 'plus',
-			link: './lists.html',
-		},
-
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
-	],
-
 	// ┬  ┬┌─┐┌┬┐┌─┐
 	// │  │└─┐ │ └─┐
 	// ┴─┘┴└─┘ ┴ └─┘
@@ -202,7 +118,7 @@ const CONFIG = {
 				},
 				{
 					name: 'Dictionary ADS',
-					link: 'https://xlinux.nist.gov/dads/,
+					link: 'https://xlinux.nist.gov/dads/',
 				},
 				{
 					name: 'CSS-Tricks',
@@ -217,7 +133,7 @@ const CONFIG = {
 					link: 'https://getbootstrap.com/docs/',
 				},
 				{
-				i	name: 'Curated Lists',
+					name: 'Curated Lists',
 					link: 'https://github.com/cuuupid/awesome-lists',
 				},
 				{
