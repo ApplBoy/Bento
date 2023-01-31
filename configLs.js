@@ -40,22 +40,20 @@ const CONFIG = {
 			icon: 'hard-drive',
 			id: '1',
 			links: [
-				{
-					name: 'D Drive',
-					link: 'https://doodrive.com/dashboard',
-				},
-				{
-					name: 'G Drive',
-					link: 'https://drive.google.com/',
-				},
+				
 				{
 					name: 'Disk',
 					link: 'https://disk.yandex.com/',
 				},
+        {
+					name: 'Mega',
+					link: 'https://mega.nz/',
+				},
 				{
-					name: 'Intrnxt',
-					link: 'https://drive.internxt.com/app',
-				},/*
+					name: 'Skiff',
+					link: 'https://app.skiff.org/drive/dashboard',
+				},
+				/*
 				{
 					name: 'One Drv',
 					link: 'https://onedrive.live.com/',
@@ -64,17 +62,21 @@ const CONFIG = {
 					name: 'Filen',
 					link: 'https://drive.filen.io/',
 				},
+        {
+					name: 'D Drive',
+					link: 'https://doodrive.com/dashboard',
+				},
+				{
+					name: 'G Drive',
+					link: 'https://drive.google.com/',
+				},
+        {
+					name: 'Intrnxt',
+					link: 'https://drive.internxt.com/app',
+				},
 				{
 					name: 'Media Fr',
 					link: 'https://app.mediafire.com/',
-				},
-				{
-					name: 'Mega',
-					link: 'https://mega.nz/',
-				},
-				{
-					name: 'Skiff',
-					link: 'https://app.skiff.org/drive/dashboard',
 				},
 			],
 		},
@@ -82,33 +84,33 @@ const CONFIG = {
 			icon: 'dices',
 			id: '2',
 			links: [
-				{
-					name: 'Roll20',
-					link: 'https://www.roll20.net/',
-				},
-				{
-					name: 'TTop Audio',
-					link: 'https://tabletopaudio.com/',
-				},
-				{
-					name: 'Amb Mixer',
-					link: 'https://www.ambient-mixer.com/',
-				},
-				{
+        {
 					name: 'Dojon',
 					link: 'https://donjon.bin.sh/',
 				},
 				{
-					name: 'My Noise	',
-					link: 'https://mynoise.net/',
+					name: 'DevintArt',
+					link: 'https://www.deviantart.com/',
 				},
 				{
 					name: 'ArtStation',
 					link: 'https://www.artstation.com/',
 				},
+        {
+					name: 'My Noise	',
+					link: 'https://mynoise.net/',
+				},
 				{
-					name: 'DevintArt',
-					link: 'https://www.deviantart.com/',
+					name: 'Amb Mixer',
+					link: 'https://www.ambient-mixer.com/',
+				},
+        {
+					name: 'TTop Audio',
+					link: 'https://tabletopaudio.com/',
+				},
+				{
+					name: 'Password Gen',
+					link: 'https://passwordsgenerator.net/',
 				},
 				{
 					name: 'StandardNotes',
@@ -129,20 +131,8 @@ const CONFIG = {
 					link: 'https://chat.openai.com',
 				},
 				{
-					name: 'Dictionary ADS',
-					link: 'https://xlinux.nist.gov/dads/',
-				},
-				{
 					name: 'CSS-Tricks',
 					link: 'https://css-tricks.com/',
-				},
-				{
-					name: 'Tailwind Comp',
-					link: 'https://tailwindcomponents.com/',
-				},
-				{
-					name: 'Bootstrap Docs',
-					link: 'https://getbootstrap.com/docs/',
 				},
 				{
 					name: 'Curated Lists',
@@ -153,8 +143,20 @@ const CONFIG = {
 					link: 'https://stackabuse.com/',
 				},
 				{
-					name: 'Password Gen',
-					link: 'https://passwordsgenerator.net/',
+					name: 'Rosetta Code',
+					link: 'https://rosettacode.org/',
+				},
+				{
+					name: 'Tailwind Comp',
+					link: 'https://tailwindcomponents.com/',
+				},
+				{
+					name: 'Dictionary ADS',
+					link: 'https://xlinux.nist.gov/dads/',
+				},
+				{
+					name: 'Bootstrap Docs',
+					link: 'https://getbootstrap.com/docs/',
 				},
 			],
 		},
@@ -171,12 +173,8 @@ const CONFIG = {
 					link: 'https://www.php.net/manual/en/',
 				},
 				{
-					name: 'Coursera',
-					link: 'https://www.coursera.org',
-				},
-				{
-					name: 'CodeCamp',
-					link: 'https://www.freecodecamp.org',
+					name: 'B Crowd',
+					link: 'https://www.beecrowd.com.br/judge/pt/login',
 				},
 				{
 					name: 'Sololearn',
@@ -187,12 +185,16 @@ const CONFIG = {
 					link: 'https://neetcode.io/',
 				},
 				{
-					name: 'W3 Schools',
-					link: 'https://www.w3schools.com/',
+					name: 'Coursera',
+					link: 'https://www.coursera.org',
 				},
 				{
-					name: 'B Crowd',
-					link: 'https://www.beecrowd.com.br/judge/pt/login',
+					name: 'CodeCamp',
+					link: 'https://www.freecodecamp.org',
+				},
+				{
+					name: 'W3 Schools',
+					link: 'https://www.w3schools.com/',
 				},
 			],
 		},
