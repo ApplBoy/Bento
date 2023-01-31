@@ -43,6 +43,11 @@ const generateFirstListsContainer = () => {
           href="${list.links[6].link}"
           class="listItem"
           >${list.links[6].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[7].link}"
+          class="listItem"
+          >${list.links[7].name}</a>
         </div>
       `;
 		const position = 'beforeend';
@@ -54,42 +59,47 @@ const generateSecondListsContainer = () => {
 	for (const list of CONFIG.secondListsContainer) {
 		let item = `
         <div class="card list list__${list.id}" id="list_${list.id}">
-        <i class="listIcon" icon-name="${list.icon}"></i>
-        <a
-        target="${CONFIG.openInNewTab ? '_blank' : ''}"
-        href="${list.links[0].link}"
-        class="listItem"
-        >${list.links[0].name}</a>
-        <a
-        target="${CONFIG.openInNewTab ? '_blank' : ''}"
-        href="${list.links[1].link}"
-        class="listItem"
-        >${list.links[1].name}</a>
-        <a
-        target="${CONFIG.openInNewTab ? '_blank' : ''}"
-        href="${list.links[2].link}"
-        class="listItem"
-        >${list.links[2].name}</a>
-        <a
-        target="${CONFIG.openInNewTab ? '_blank' : ''}"
-        href="${list.links[3].link}"
-        class="listItem"
-        >${list.links[3].name}</a>
-		  <a
-		  target="${CONFIG.openInNewTab ? '_blank' : ''}"
-		  href="${list.links[4].link}"
-		  class="listItem"
-		  >${list.links[4].name}</a>
-		  <a
-		  target="${CONFIG.openInNewTab ? '_blank' : ''}"
-		  href="${list.links[5].link}"
-		  class="listItem"
-		  >${list.links[5].name}</a>
-		  <a
-		  target="${CONFIG.openInNewTab ? '_blank' : ''}"
-		  href="${list.links[6].link}"
-		  class="listItem"
-		  >${list.links[6].name}</a>
+          <i class="listIcon" icon-name="${list.icon}"></i>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[0].link}"
+          class="listItem"
+          >${list.links[0].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[1].link}"
+          class="listItem"
+          >${list.links[1].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[2].link}"
+          class="listItem"
+          >${list.links[2].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[3].link}"
+          class="listItem"
+          >${list.links[3].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[4].link}"
+          class="listItem"
+          >${list.links[4].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[5].link}"
+          class="listItem"
+          >${list.links[5].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[6].link}"
+          class="listItem"
+          >${list.links[6].name}</a>
+          <a
+          target="${CONFIG.openInNewTab ? '_blank' : ''}"
+          href="${list.links[7].link}"
+          class="listItem"
+          >${list.links[7].name}</a>
         </div>
       `;
 		const position = 'beforeend';

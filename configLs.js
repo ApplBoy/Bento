@@ -55,10 +55,14 @@ const CONFIG = {
 				{
 					name: 'Intrnxt',
 					link: 'https://drive.internxt.com/app',
-				},
+				},/*
 				{
 					name: 'One Drv',
 					link: 'https://onedrive.live.com/',
+				},*/
+				{
+					name: 'Filen',
+					link: 'https://drive.filen.io/',
 				},
 				{
 					name: 'Media Fr',
@@ -67,6 +71,10 @@ const CONFIG = {
 				{
 					name: 'Mega',
 					link: 'https://mega.nz/',
+				},
+				{
+					name: 'Skiff',
+					link: 'https://app.skiff.org/drive/dashboard',
 				},
 			],
 		},
@@ -102,6 +110,10 @@ const CONFIG = {
 					name: 'DevintArt',
 					link: 'https://www.deviantart.com/',
 				},
+				{
+					name: 'StandardNotes',
+					link: 'https://app.standardnotes.com/',
+				},
 			],
 		},
 	],
@@ -125,7 +137,7 @@ const CONFIG = {
 					link: 'https://css-tricks.com/',
 				},
 				{
-					name: 'Tailwind Components',
+					name: 'Tailwind Comp',
 					link: 'https://tailwindcomponents.com/',
 				},
 				{
@@ -139,6 +151,10 @@ const CONFIG = {
 				{
 					name: 'Stack Abuse',
 					link: 'https://stackabuse.com/',
+				},
+				{
+					name: 'Password Gen',
+					link: 'https://passwordsgenerator.net/',
 				},
 			],
 		},
@@ -173,6 +189,10 @@ const CONFIG = {
 				{
 					name: 'W3 Schools',
 					link: 'https://www.w3schools.com/',
+				},
+				{
+					name: 'B Crowd',
+					link: 'https://www.beecrowd.com.br/judge/pt/login',
 				},
 			],
 		},

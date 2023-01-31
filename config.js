@@ -79,8 +79,8 @@ const CONFIG = {
 		{
 			id: '5',
 			name: 'YouTube',
-			icon: 'youtube',
-			link: 'https://youtube.com/',
+			icon: 'asterisk',
+			link: 'https://clipperz.is/app/',
 		},
 		{
 			id: '6',
