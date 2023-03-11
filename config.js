@@ -175,8 +175,8 @@ const CONFIG = {
 					link: 'https://www.4chan.org',
 				},
 				{
-					name: 'Cheat.sh',
-					link: 'https://cheat.sh/',
+					name: 'DM Screen',
+					link: 'https://www.kassoon.com/dnd/digital-dm-screen/',
 				},
 			],
 		},
