@@ -127,8 +127,8 @@ const CONFIG = {
 			id: '1',
 			links: [
 				{
-					name: 'ChatGPT',
-					link: 'https://chat.openai.com',
+					name: 'Cheat.sh',
+					link: 'https://cheat.sh/',
 				},
 				{
 					name: 'CSS-Tricks',
