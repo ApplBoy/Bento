@@ -36,10 +36,10 @@ const CONFIG = {
 	defaultLongitude: '-51.726028',
 
 	// Autochange
-	autoChangeTheme: true,
+	autoChangeTheme: false,
 
 	// Autochange by OS
-	changeThemeByOS: true,
+	changeThemeByOS: false,
 
 	// Autochange by hour options (24hrs format, string must be in: hh:mm)
 	changeThemeByHour: false,
@@ -66,19 +66,19 @@ const CONFIG = {
 		},
 		{
 			id: '3',
-			name: 'WhtsApp',
-			icon: 'phone',
-			link: 'https://web.whatsapp.com',
-		},
-		{
-			id: '4',
 			name: 'P Mail',
 			icon: 'mail',
 			link: 'https://mail.protonmail.com',
 		},
 		{
+			id: '4',
+			name: 'WhtsApp',
+			icon: 'phone',
+			link: 'https://web.whatsapp.com',
+		},
+		{
 			id: '5',
-			name: 'YouTube',
+			name: 'Logs',
 			icon: 'asterisk',
 			link: 'https://clipperz.is/app/',
 		},
@@ -89,45 +89,6 @@ const CONFIG = {
 			link: './lists.html',
 		},
 
-	],
-
-	secondButtonsContainer: [
-		{
-			id: '1',
-			name: 'Music',
-			icon: 'headphones',
-			link: 'https://open.spotify.com',
-		},
-		{
-			id: '2',
-			name: 'twitter',
-			icon: 'twitter',
-			link: 'https://twitter.com/',
-		},
-		{
-			id: '3',
-			name: 'bot',
-			icon: 'bot',
-			link: 'https://discord.com/app',
-		},
-		{
-			id: '4',
-			name: 'Amazon',
-			icon: 'shopping-bag',
-			link: 'https://amazon.com/',
-		},
-		{
-			id: '5',
-			name: 'Hashnode',
-			icon: 'pen-tool',
-			link: 'https://hashnode.com/',
-		},
-		{
-			id: '6',
-			name: 'Figma',
-			icon: 'figma',
-			link: 'https://figma.com/',
-		},
 	],
 
 	// ┬  ┬┌─┐┌┬┐┌─┐
@@ -149,8 +110,8 @@ const CONFIG = {
 					link: 'https://replit.com/~',
 				},
 				{
-					name: 'GDB',
-					link: 'https://www.onlinegdb.com/',
+					name: 'Gentoo',
+					link: 'https://wiki.gentoo.org/wiki/',
 				},
 				{
 					name: 'SIGAA',
@@ -175,56 +136,8 @@ const CONFIG = {
 					link: 'https://www.4chan.org',
 				},
 				{
-					name: 'DM Screen',
-					link: 'https://www.kassoon.com/dnd/digital-dm-screen/',
-				},
-			],
-		},
-	],
-
-	// Second Links Container
-	secondListsContainer: [
-		{
-			icon: 'binary',
-			id: '1',
-			links: [
-				{
-					name: 'Spotify',
-					link: 'https://www.spotify.com',
-				},
-				{
-					name: 'Reddit',
-					link: 'https://www.reddit.com',
-				},
-				{
-					name: 'Hashnode',
-					link: 'https://www.hashnode.com',
-				},
-				{
-					name: 'Pocket',
-					link: 'https://www.pocket.com',
-				},
-			],
-		},
-		{
-			icon: 'github',
-			id: '2',
-			links: [
-				{
-					name: 'Front',
-					link: 'https://www.reddit.com/r/Frontend/',
-				},
-				{
-					name: 'Rust',
-					link: 'https://www.reddit.com/r/rust/',
-				},
-				{
-					name: 'Go',
-					link: 'https://www.reddit.com/r/golang/',
-				},
-				{
-					name: 'Repos',
-					link: 'https://github.com/migueravila',
+					name: 'Music',
+					link: 'https://hyperpipe.surge.sh/',
 				},
 			],
 		},
